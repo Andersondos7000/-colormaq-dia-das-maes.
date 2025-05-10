@@ -159,23 +159,6 @@
 </head>
 <body>
 
-<script>
-// Proteção por senha simples
-window.onload = function() {
-  var senha = '';
-  while (senha !== 'colormaq2025') {
-    senha = prompt('Esta página é protegida. Por favor, digite a senha:');
-    if (senha === null) {
-      document.body.innerHTML = '<h2>Acesso cancelado.</h2>';
-      return;
-    }
-    if (senha !== 'colormaq2025') {
-      alert('Senha incorreta!');
-    }
-  }
-};
-</script>
-
 <!-- Menu fixo no topo -->
 <nav class="top-menu">
   <div class="menu-container">
